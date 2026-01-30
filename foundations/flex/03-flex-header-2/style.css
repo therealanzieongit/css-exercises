@@ -12,6 +12,35 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
+
+.linknotif {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.links {
+  flex: 2;
+  align-items: center;
+}
+/* 
+.links li {
+  align-content: center;
+} */
+/* 
+.notifprof {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.notifications {
+  gap: 10px;
+  box-sizing: border-box;
+  margin: 10px;
 }
 
 .profile-image {
@@ -20,6 +49,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  gap: 10px;
+  margin: 10px;
 }
 
 .logo {
@@ -27,6 +58,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  align-content: center;
 }
 
 button {
@@ -45,4 +77,6 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 20px;
 }
